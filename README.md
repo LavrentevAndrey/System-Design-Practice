@@ -42,7 +42,7 @@ This project is a web application built using FastAPI, designed to be easily bui
 
 ## Monitoring and Logging
 - **Prometheus:** Access at `http://localhost:9090`.
-- **Grafana:** Access at `http://localhost:3000` (Default creds: admin admin  Default data source: Prometheus) 
+- **Grafana:** Access at `http://localhost:3000` (Default creds: admin admin  Dashboard: 1860 Default data source: Prometheus) 
 - **Kibana:** Access at `http://localhost:5601` (Default creds: elastic changeme).
 - **Node Exporter:** Metrics available at `http://localhost:9100/metrics`.
 
@@ -51,3 +51,7 @@ This project is a web application built using FastAPI, designed to be easily bui
 - **Data Validation:** All data is validated using Pydantic models.
 - **Environment Variables:** Sensitive information is managed using environment variables (see `.env` file).
 
+## Principal scheme of project
+![Scheme of project](images/image.png)
+- All light gray elements is not yet implemented.
+- MongoDB was used for educational porpouses. In near future it will be replaced with PostgreSQL.
